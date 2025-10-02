@@ -30,10 +30,10 @@ let myFun = function me(){
 
 }
 
-console.log(typeof myFun);
+//console.log(typeof myFun);
 
 let temparature = null
-console.log(typeof temparature); //object 
+//console.log(typeof temparature); //object 
 
 
 
@@ -74,6 +74,36 @@ console.log(typeof temparature); //object
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+
+// -----------------------------------------------------------------------------------------------
+
+//stack (primitive) , heap ( non primitive )
+
+let myName = "rifat"
+let anotherName = myName
+anotherName = "Rifat Hosain"
+
+console.log(myName); //rifat
+console.log(anotherName); //Rifat Hosain
+
+let userOne= {
+    email: "user@gmail.com"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user@google.com"
+
+console.log(userOne.email); //user@google.com
+console.log(userTwo.email); //user@google.com
+
+// here we use heap memory and change in memory.that's why two log return same.in heap we get memory location.
+// and when we change in heap then it change the memory data.but in stack when we refer one variable to the 
+// another variable the we get a copy.when we make any change then it change the copy only not the memory data
+
+
+
 
 
 
