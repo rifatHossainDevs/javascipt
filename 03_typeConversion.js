@@ -1,20 +1,20 @@
-/*let score = "33aa"
+let score = "33aa"
 let score1 = 33.22
 
-console.log(typeof 20.02); //number
+//console.log(typeof 20.02); //number
 //in java script there is not difference between int or float or double.everything is consider as number 
-console.log(typeof score);
-console.log(typeof (score));
+// console.log(typeof score);
+// console.log(typeof (score));
 
 let scoreValue = Number(score)  //this convert a value to number
 let scoreString = String(score1)  // this convert a value to String
 
-console.log(typeof scoreValue); //number
-console.log(scoreValue);  //NaN.meaning of this is "Not a number".it is a type.
-console.log();
-console.log(typeof scoreString); //string
-console.log(scoreString); //33.22
-console.log();
+// console.log(typeof scoreValue); //number
+// console.log(scoreValue);  //NaN.meaning of this is "Not a number".it is a type.
+// console.log();
+// console.log(typeof scoreString); //string
+// console.log(scoreString); //33.22
+// console.log();
 
 
 
@@ -32,16 +32,16 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let booleanIsLoggedInString = Boolean(isLoggedInString)
 
 
-console.log(typeof booleanIsLoggedIn); //boolean
-console.log(booleanIsLoggedIn); //true
-console.log();
+// console.log(typeof booleanIsLoggedIn); //boolean
+// console.log(booleanIsLoggedIn); //true
+// console.log();
 
-console.log(typeof booleanIsLoggedInString); //boolean
-console.log(booleanIsLoggedInString); //false
+// console.log(typeof booleanIsLoggedInString); //boolean
+// console.log(booleanIsLoggedInString); //false
 
 //1 => true; 0=> false
 // ""=> false
-// "ffad" => true*/
+// "ffad" => true
 
 let scoreNumber = 20
 let scoreNumberNull = null
@@ -49,10 +49,31 @@ let scoreNumberNull = null
 let objectScore = Object(scoreNumber) 
 let objectScoreNull = Object(scoreNumberNull) 
 
-console.log(objectScore); //[number: 20]
-console.log(typeof objectScore); //object
+// console.log(objectScore); //[number: 20]
+// console.log(typeof objectScore); //object
 
-console.log(objectScoreNull); //{}
+// console.log(objectScoreNull); //{}
+
+//***************************** Operation ****************************
+
+//console.log(2**3); //2^3 = 8
+//console.log(2%3);  //reminder
+
+let value = 30
+//console.log(-value); //-30
+
+console.log(1+"2"); //12
+console.log("1"+"2"); //12
+console.log("1"+2); //12
+console.log("1"+2+3); //123
+
+console.log(1+4+"2"+3+6); //5236
+console.log(1+2+3+4+"2"+3+6); //10236
+console.log(1+4+"2"); //52
+
+
+
+
 
 
 
